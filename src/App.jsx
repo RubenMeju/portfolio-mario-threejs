@@ -7,9 +7,9 @@ import "./App.css";
 
 export default function App() {
   const { position, rotation } = useVehicleController({
-    initialPosition: new Vector3(0, 0, 0),
-    initialRotation: 0,
-    speed: 0.1,
+    initialPosition: new Vector3(0, 0, 2),
+    initialRotation: 3,
+    speed: 0.01,
     turnSpeed: 0.02,
   });
 

@@ -4,7 +4,7 @@ import { Vector3 } from "three";
 export function useVehicleController({
   initialPosition = new Vector3(0, 0, 0),
   initialRotation = 0,
-  speed = 0.1,
+  speed = 0.05,
   turnSpeed = 0.02,
 }) {
   const [position, setPosition] = useState(initialPosition);
